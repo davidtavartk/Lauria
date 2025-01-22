@@ -28,6 +28,9 @@ const CustomForm = () => {
           placeholder="Your Name"
           maxLength={24}
           {...register("name", { required: "Name is required" })}
+          onChange={(e) => {
+            e.target.value = e.target.value.replace(/[^a-zA-Z]/g, "");
+          }}
         />
         {errors.name && (
           <p className="absolute mt-[2px] text-xs text-red-500">
