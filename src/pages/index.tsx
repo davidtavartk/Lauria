@@ -1,5 +1,7 @@
+import MainPage from "./MainPage";
+
 export default function Home() {
-  return <div className="m-auto h-full w-full px-4">
-    
+  return <div className="h-full w-full">
+    <MainPage />
   </div>;
 }
