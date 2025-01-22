@@ -1,23 +1,18 @@
+import { FormInputsTypes } from "@/types/types";
 import Button from "../atoms/Button";
 import Input from "../atoms/Input";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 
-type Inputs = {
-  name: string;
-  address: string;
-  telephone: string;
-  email: string;
-};
 
 const CustomForm = () => {
   const {
     register,
     handleSubmit,
     formState: { errors },
-  } = useForm<Inputs>();
+  } = useForm<FormInputsTypes>();
 
-  const onSubmit = (data: Inputs) => {
+  const onSubmit = (data: FormInputsTypes) => {
     console.log(data);
     toast("Form submitted successfully");
   };
