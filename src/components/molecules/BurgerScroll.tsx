@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import BurgerMenu from '../../../public/header_icons/BurgerMenu';
 
 const BurgerMenuButton = ({ onClick }: { onClick: () => void }) => {
