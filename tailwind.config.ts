@@ -13,6 +13,7 @@ export default {
         "c-yellow": "#FFB830",
         "c-heading": "##FFB830",
         "c-text": "#6E6E6E",
+        "background-overlay": "rgba(0, 0, 0, 0.65)",
       },
     },
   },
