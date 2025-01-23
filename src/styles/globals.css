@@ -9,6 +9,10 @@
   letter-spacing: 0.02em;
 }
 
+li {
+  list-style: none;
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;

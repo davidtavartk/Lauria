@@ -11,3 +11,12 @@ export interface InputProps {
     maxLength?: number;
     onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
     }
+
+export interface NavModalProps {
+    isOpen: boolean;
+    closeModal: () => void;
+}
+
+export interface NavMenuProps {
+    className: string;
+}
