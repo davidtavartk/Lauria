@@ -6,7 +6,7 @@ import OurPricing from "@/components/organisms/OurPricing";
 const MainPage = () => {
   return <>
     <Header />
-    <div className="m-auto px-4">
+    <div className="m-auto px-4 relative">
       <CustomForm />
     </div>
     <OurPricing />

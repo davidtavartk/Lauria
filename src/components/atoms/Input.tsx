@@ -2,16 +2,16 @@ import { forwardRef } from "react";
 import { InputProps } from "@/types/propTypes";
 
 const Input = forwardRef<HTMLInputElement, InputProps>(
-  ({ type = "text", maxLength=255, placeholder, ...rest }, ref) => {
+  ({ type = "text", maxLength = 255, placeholder, ...rest }, ref) => {
     return (
-      <div className="w-full border-b-[3px] border-white bg-white bg-opacity-35 p-5 sm:w-auto sm:min-w-[250px] sm:flex-1 lg:max-w-[250px]">
+      <div className="flex w-full border-b-[3px] border-white bg-white bg-opacity-35 p-5 md:w-full lg:max-w-[250px]">
         <input
           ref={ref}
           type={type}
           placeholder={placeholder}
           maxLength={maxLength}
           {...rest}
-          className="w-full border-none bg-transparent text-[17px] text-white font-light placeholder-white placeholder:text-[17px] focus:outline-none"
+          className="w-full border-none bg-transparent text-[17px] font-light text-white placeholder-white placeholder:text-[17px] focus:outline-none"
         />
       </div>
     );
