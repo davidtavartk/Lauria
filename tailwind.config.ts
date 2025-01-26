@@ -11,8 +11,9 @@ export default {
       colors: {
         primary: "#3DB2FF",
         "c-yellow": "#FFB830",
-        "c-heading": "##FFB830",
+        "c-heading": "#FFB830",
         "c-text": "#6E6E6E",
+        "c-title": "#2D2D2D",
         "background-overlay": "rgba(0, 0, 0, 0.65)",
       },
     },

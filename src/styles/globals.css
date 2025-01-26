@@ -23,7 +23,26 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-  background-color: unset !important; /* Remove background color */
-  -webkit-box-shadow: none !important; /* Remove autofill box-shadow */
-  box-shadow: none !important; /* Remove autofill box-shadow for all browsers */
+  background-color: unset !important;
+  /* Remove background color */
+  -webkit-box-shadow: none !important;
+  /* Remove autofill box-shadow */
+  box-shadow: none !important;
+  /* Remove autofill box-shadow for all browsers */
+}
+
+
+
+@media (min-width: 768px) {
+  .special-style {
+    max-width: 718px;
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .special-style1 {
+    max-width: 100%;
+    grid-column: span 1
+  }
 }

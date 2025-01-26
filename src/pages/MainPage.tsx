@@ -1,6 +1,7 @@
 import CustomForm from "@/components/molecules/CustomForm";
 import React from "react";
 import Header from "@/components/organisms/Header";
+import OurPricing from "@/components/organisms/OurPricing";
 
 const MainPage = () => {
   return <>
@@ -8,6 +9,7 @@ const MainPage = () => {
     <div className="m-auto px-4">
       <CustomForm />
     </div>
+    <OurPricing />
   </>
 };
 
