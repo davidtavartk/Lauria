@@ -21,8 +21,8 @@ const VideoCard = () => {
 
   return (
     <div className="relative m-auto w-full">
-      <div className="h-[250px] max-h-[350px] w-4/5 max-w-[500px] bg-[#C4C4C4] sm:h-[390px] sm:w-[500px] md:w-4/6 md:h-[300px]" />
-      <div className="shadow-custom absolute right-0 top-[150px] h-[250px] w-4/5 max-sm:max-w-[500px] border-[15px] border-white bg-[#F3F3F3] sm:h-[390px] sm:w-[500px] md:w-4/6 md:h-[300px]">
+      <div className="h-[250px] max-h-[350px] w-4/5 max-w-[500px] bg-[#C4C4C4] sm:h-[390px] sm:w-[500px] md:h-[300px] md:w-4/6 md:min-w-[280px]" />
+      <div className="absolute right-0 top-[150px] h-[250px] w-4/5 border-[15px] border-white bg-[#F3F3F3] shadow-custom max-sm:max-w-[500px] sm:h-[390px] sm:w-[500px] md:h-[300px] md:w-4/6 md:min-w-[280px]">
         <video
           ref={videoRef}
           className="h-full w-full object-cover"
@@ -35,7 +35,7 @@ const VideoCard = () => {
 
         {!isPlaying && (
           <span
-            className="shadow-custom absolute inset-0 m-auto flex size-[100px] cursor-pointer items-center justify-center rounded-full bg-primary"
+            className="absolute inset-0 m-auto flex size-[100px] cursor-pointer items-center justify-center rounded-full bg-primary shadow-custom"
             onClick={handlePlay}
           >
             <PlayIcon />
