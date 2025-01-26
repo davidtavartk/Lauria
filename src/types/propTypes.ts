@@ -20,3 +20,13 @@ export interface ButtonProps {
   export interface NavMenuProps {
     className: string;
   }
+
+  export interface CleanCardProps {
+    icon: React.ReactNode;
+    title: string;
+    children: React.ReactNode;
+  }
+
+  export interface InfoProps {
+    children: React.ReactNode;
+  }

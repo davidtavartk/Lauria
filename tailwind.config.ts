@@ -16,6 +16,12 @@ export default {
         "c-title": "#2D2D2D",
         "background-overlay": "rgba(0, 0, 0, 0.65)",
       },
+      boxShadow: {
+        custom: '0px 10px 25px 0px rgba(0, 0, 0, 0.10)',
+      },
+      screens: {
+        'lg-plus': '1220px',
+      },
     },
   },
   plugins: [],
