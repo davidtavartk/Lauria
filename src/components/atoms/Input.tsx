@@ -4,7 +4,7 @@ import { InputProps } from "@/types/propTypes";
 const Input = forwardRef<HTMLInputElement, InputProps>(
   ({ type = "text", maxLength = 255, placeholder, ...rest }, ref) => {
     return (
-      <div className="flex w-full border-b-[3px] border-white bg-white bg-opacity-35 p-5 md:w-full lg:max-w-[250px]">
+      <div className="flex w-full border-b-[3px] border-white bg-white bg-opacity-35 p-5 md:w-full">
         <input
           ref={ref}
           type={type}
