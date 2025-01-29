@@ -1,10 +1,10 @@
 import React from 'react';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import FooterLogo from '../../../public/footer_logo/FooterLogo';
-import Icon3 from '../../../public/header_icons/Icon3';
-import Icon4 from '../../../public/header_icons/Icon4';
-import Icon5 from '../../../public/header_icons/Icon5';
-import Icon6 from '../../../public/header_icons/Icon6';
+import Icon3 from '../../../public/svgs/header_icons/Icon3';
+import Icon4 from '../../../public/svgs/header_icons/Icon4';
+import Icon5 from '../../../public/svgs/header_icons/Icon5';
+import Icon6 from '../../../public/svgs/header_icons/Icon6';
 import Button from "../atoms/Button";
 import Input from "../atoms/Input";
 import { NewsletterFormData } from '@/types/propTypes';

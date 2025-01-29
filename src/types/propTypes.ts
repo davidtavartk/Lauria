@@ -47,3 +47,8 @@ export interface MapPinItemProps {
 export interface InfoProps {
   children: React.ReactNode;
 }
+
+export interface NewsletterFormData {
+  email: string;
+  name: string;
+}
