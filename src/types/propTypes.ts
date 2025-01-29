@@ -30,3 +30,7 @@ export interface ButtonProps {
   export interface InfoProps {
     children: React.ReactNode;
   }
+
+  export interface NewsletterFormData {
+    email: string;
+  }
