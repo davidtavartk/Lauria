@@ -43,3 +43,7 @@ export interface PriceCartProps {
   features: boolean[];
   className?: string;
 }
+
+export interface MapPinItemProps {
+  className: string;
+}

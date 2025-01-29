@@ -5,6 +5,7 @@ import OurPricing from "@/components/organisms/OurPricing";
 import VideoSection from "@/components/organisms/VideoSection";
 import WhyUs from "@/components/molecules/WhyUs";
 import CleanCardSection from "@/components/organisms/CleanCardSection";
+import MapSection from "@/components/molecules/MapSection";
 
 const MainPage = () => {
   return (
@@ -18,6 +19,7 @@ const MainPage = () => {
         <VideoSection />
         <WhyUs />
       </div>
+      <MapSection />
 
       <OurPricing />
     </>
