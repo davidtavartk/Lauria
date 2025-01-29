@@ -28,10 +28,6 @@ export interface CleanCardProps {
   children: React.ReactNode;
 }
 
-export interface InfoProps {
-  children: React.ReactNode;
-}
-
 export interface CheckItemProps {
   isChecked: boolean;
   children: React.ReactNode;
@@ -46,4 +42,8 @@ export interface PriceCartProps {
 
 export interface MapPinItemProps {
   className: string;
+}
+
+export interface InfoProps {
+  children: React.ReactNode;
 }
