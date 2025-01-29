@@ -17,9 +17,9 @@ const Footer = () => {
   };
 
   return (
-    <div className=''>
+    <footer>
       <div className='bg-[#C4C4C4] w-full h-[350px] md:h-[500px]'></div>
-      <div className='bg-primary py-[50px] px-[15px] md:px-[25px] flex flex-col items-start justify-center gap-[50px] text-white xl:flex-row xl:gap-[30px] xl:px-[105px] xl:py-[100px] w-[100%]'>
+      <div className='bg-primary py-[50px] px-4 lg:px-24 md:px-[25px] flex flex-col items-start justify-center gap-[50px] text-white xl:flex-row xl:gap-[30px] xl:px-[105px] xl:py-[100px] w-[100%]'>
         <div className='flex flex-col items-start justify-center gap-[25px] xl:gap-[30px] xl:mr-[135px] xl:w-[495px]'>
           <div><FooterLogo /></div>
           <div className='text-left text-[17px] md:max-w-[718px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
@@ -68,7 +68,7 @@ const Footer = () => {
           </form>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

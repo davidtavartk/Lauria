@@ -23,7 +23,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-background-overlay flex h-[731px] w-full flex-col items-center px-[15px] py-[15px] md:h-[839px] md:px-[25px] md:py-0 xl:px-[105px]">
+    <header className="bg-background-overlay flex h-[731px] w-full flex-col items-center px-4 py-[15px] md:h-[839px] md:py-0 lg:px-24 relative">
       <div className="hidden h-[75px] w-full items-center justify-between md:flex">
         <div className="font-inter flex gap-[30px] text-[17px] text-white">
           <div className="flex cursor-pointer items-center gap-[15px]">
@@ -49,7 +49,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="flex h-[90px] w-full items-center justify-between bg-white px-[15px] md:h-[110px] md:px-[25px] xl:h-[95px]">
+      <div className="flex h-[90px] w-full items-center justify-between bg-white px-[15px] md:h-[110px] xl:h-[95px]">
         <div>
           <Logo />
         </div>

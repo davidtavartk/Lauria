@@ -4,7 +4,7 @@ import MapPinItem from "../atoms/MapPinItem";
 
 const MapSection = () => {
   return (
-    <div className="m-auto w-full px-4 relative mt-[25px]">
+    <div className="m-auto w-full px-4 relative mt-32">
       <Image
         src={mapBackground}
         alt="mapHero"
