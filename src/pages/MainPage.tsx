@@ -5,6 +5,7 @@ import OurPricing from "@/components/organisms/OurPricing";
 import VideoSection from "@/components/organisms/VideoSection";
 import WhyUs from "@/components/molecules/WhyUs";
 import CleanCardSection from "@/components/organisms/CleanCardSection";
+import Footer from "@/components/organisms/Footer";
 import MapSection from "@/components/molecules/MapSection";
 
 const MainPage = () => {
@@ -22,6 +23,7 @@ const MainPage = () => {
       <MapSection />
 
       <OurPricing />
+      <Footer />
     </>
   );
 };
