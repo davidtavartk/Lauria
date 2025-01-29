@@ -19,6 +19,9 @@ export default {
       boxShadow: {
         custom: '0px 10px 25px 0px rgba(0, 0, 0, 0.10)',
       },
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'], 
+      },
       screens: {
         'lg-plus': '1220px',
       },

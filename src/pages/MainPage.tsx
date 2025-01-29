@@ -5,6 +5,9 @@ import OurPricing from "@/components/organisms/OurPricing";
 import VideoSection from "@/components/organisms/VideoSection";
 import WhyUs from "@/components/molecules/WhyUs";
 import CleanCardSection from "@/components/organisms/CleanCardSection";
+import OurStats from "@/components/organisms/OurStats";
+import OurServices from "@/components/organisms/OurServices";
+import OurServicesBox from "@/components/organisms/OurServicesBox";
 
 const MainPage = () => {
   return (
@@ -18,7 +21,9 @@ const MainPage = () => {
         <VideoSection />
         <WhyUs />
       </div>
-
+        <OurStats/>
+      <OurServices/>
+      <OurServicesBox/>
       <OurPricing />
     </>
   );
