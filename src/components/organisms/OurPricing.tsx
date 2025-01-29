@@ -7,7 +7,7 @@ const OurPricing = () => {
     const third_cart = [true, true, true, true, false, false];
 
     return (
-        <div className='py-[25px] px-[15px] flex flex-col items-center justify-center gap-[25px] mt-96'>
+        <div className='py-[25px] px-4 flex flex-col items-center justify-center gap-[25px] mt-14 lg:px-10'>
             <div className='flex flex-col items-center justify-center gap-[15px]'>
                 <div className='uppercase text-primary text-[13px] leading-[30px] tracking-[1.9px]'>Our Pricing</div>
                 <h1 className='capitalize text-c-title text-[35px] font-black text-center leading-[45px] md:text-[60px]'>Best Price For Best Services</h1>
