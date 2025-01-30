@@ -52,3 +52,9 @@ export interface NewsletterFormData {
   email: string;
   name: string;
 }
+
+export interface SwiperCardProps {
+  text: string;
+  name: string;
+  honorific: string;
+}
