@@ -1,6 +1,6 @@
 import { FormInputsTypes } from "@/types/types";
-import Button from "../atoms/Button";
-import Input from "../atoms/Input";
+import Button from "@/components/atoms/Button/Button";
+import Input from "@/components/atoms/Input/Input";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 
@@ -19,7 +19,7 @@ const CustomForm = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="relative top-[-100px] md:absolute md:right-9 flex h-[515px] w-full flex-col items-center justify-between bg-primary p-[35px] sm:h-auto sm:flex-1 sm:flex-row sm:flex-wrap sm:items-stretch sm:gap-[30px] md:w-[600px]"
+      className="flex h-[515px] w-full flex-col items-center justify-between gap-5 bg-primary p-[35px] sm:h-auto sm:flex-row sm:flex-wrap sm:items-stretch sm:gap-[30px] lg:w-[600px]"
     >
       <div className="w-full sm:w-[calc(50%-15px)]">
         <Input

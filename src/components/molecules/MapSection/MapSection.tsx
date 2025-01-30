@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { mapBackground } from "../../../public/images";
-import MapPinItem from "../atoms/MapPinItem";
+import { mapBackground } from "../../../../public/images";
+import MapPinItem from "@/components/atoms/MapPinItem/MapPinItem";
 
 const MapSection = () => {
   return (
@@ -8,8 +8,7 @@ const MapSection = () => {
       <Image
         src={mapBackground}
         alt="mapHero"
-        layout="responsive"
-        objectFit="cover"
+        style={{ objectFit: "cover" }}
         width={1600}
         height={800}
       />
