@@ -1,5 +1,5 @@
 import React from 'react';
-import BurgerMenu from '../../../public/svgs/header_icons/BurgerMenu';
+import BurgerMenu from '../../../../public/svgs/header_icons/BurgerMenu';
 
 const BurgerMenuButton = ({ onClick }: { onClick: () => void }) => {
     return (

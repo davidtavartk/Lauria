@@ -1,6 +1,6 @@
 import { NavModalProps } from "@/types/propTypes";
 import ReactModal from "react-modal";
-import NavMenu from "../atoms/NavMenu";
+import NavMenu from "@/components/atoms/NavMenu/NavMenu";
 
 ReactModal.setAppElement("#__next");
 
@@ -42,12 +42,12 @@ const NavModal = ({ isOpen, closeModal }: NavModalProps) => {
       onAfterClose={handleAfterClose}
     >
       <div className="flex h-[500px] w-[300px] flex-col items-center justify-center rounded-lg bg-white p-5">
-        <div className="flex flex-col items-center justify-center gap-[10px] text-[17px] h-full w-full">
-          <NavMenu className="flex h-full w-full cursor-pointer items-center justify-center active:bg-[#379ee2] rounded-md bg-[#3DB2FF] px-[15px] py-[2px] text-[17px] font-semibold text-white" />
+        <div className="flex h-full w-full flex-col items-center justify-center gap-[10px] text-[17px]">
+          <NavMenu className="flex h-full w-full cursor-pointer items-center justify-center rounded-md bg-[#3DB2FF] px-[15px] py-[2px] text-[17px] font-semibold text-white active:bg-[#379ee2]" />
         </div>
         <button
           onClick={closeModal}
-          className="mt-5 rounded-lg bg-[#3DB2FF] px-4 py-2 text-white text-lg active:bg-[#379ee2]"
+          className="mt-5 rounded-lg bg-[#3DB2FF] px-4 py-2 text-lg text-white active:bg-[#379ee2]"
         >
           Close
         </button>

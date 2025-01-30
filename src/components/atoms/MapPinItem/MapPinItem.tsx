@@ -1,5 +1,5 @@
 import { MapPinItemProps } from "@/types/propTypes";
-import MapIcon from "../../../public/svgs/MapIcon";
+import MapIcon from "../../../../public/svgs/MapIcon";
 
 const MapPinItem = ({ className }: MapPinItemProps) => {
   return (
