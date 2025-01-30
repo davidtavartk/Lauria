@@ -1,3 +1,5 @@
+import React from "react";
+
 export interface ButtonProps {
   filled?: boolean;
   children: React.ReactNode;
@@ -27,6 +29,21 @@ export interface CleanCardProps {
   title: string;
   children: React.ReactNode;
 }
+
+export interface ServiceCardProps{
+  icon: React.ReactNode;
+  title: string;
+  children: React.ReactNode;
+}
+
+export interface OurBusinessCardProps{
+  text: string;
+  title: string;
+  children: React.ReactNode;
+
+}
+
+
 
 export interface CheckItemProps {
   isChecked: boolean;

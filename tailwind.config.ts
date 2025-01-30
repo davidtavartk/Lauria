@@ -8,6 +8,7 @@ export default {
   ],
   theme: {
     extend: {
+      
       colors: {
         primary: "#3DB2FF",
         "c-yellow": "#FFB830",
@@ -15,7 +16,9 @@ export default {
         "c-text": "#6E6E6E",
         "c-title": "#2D2D2D",
         "background-overlay": "rgba(0, 0, 0, 0.65)",
+        
       },
+      
       boxShadow: {
         custom: '0px 10px 25px 0px rgba(0, 0, 0, 0.10)',
       },

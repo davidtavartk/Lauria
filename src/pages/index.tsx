@@ -9,6 +9,8 @@ import Footer from "@/components/organisms/Footer";
 import MapSection from "@/components/molecules/MapSection";
 
 import { ToastContainer } from "react-toastify";
+import OurServiceBox from "@/components/organisms/OurServiceBox";
+import OurBusinessBox from "@/components/organisms/OurBusinessBox";
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
         <VideoSection />
         <WhyUs />
       </div>
+        <OurBusinessBox/>
+      <OurServiceBox/>
       <MapSection />
 
       <OurPricing />
