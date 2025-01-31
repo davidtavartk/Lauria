@@ -10,6 +10,7 @@ export interface InputProps {
   type?: string;
   placeholder: string;
   maxLength?: number;
+  rows?: number;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
@@ -51,4 +52,20 @@ export interface InfoProps {
 export interface NewsletterFormData {
   email: string;
   name: string;
+}
+
+export interface SwiperCardProps {
+  text: string;
+  name: string;
+  honorific: string;
+}
+
+export interface CustomFormProps {
+  messageForm?: boolean;
+}
+
+export interface ContactBoxProps {
+  icon: React.ReactNode;
+  title: string;
+  children: React.ReactNode;
 }
