@@ -8,6 +8,7 @@ import SwiperSection from "@/components/organisms/SwiperSection/SwiperSection";
 import Footer from "@/components/organisms/Footer/Footer";
 
 import { ToastContainer } from "react-toastify";
+import ContactSection from "@/components/organisms/ContactSection.tsx/ContactSection";
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <MapSection />
       <OurPricing />
       <SwiperSection />
+      <ContactSection />
       <Footer />
 
       <ToastContainer

@@ -20,6 +20,7 @@ export default {
         custom: '0px 10px 25px 0px rgba(0, 0, 0, 0.10)',
       },
       screens: {
+        "xs": "430px",
         'lg-plus': '1180px',
       },
     },

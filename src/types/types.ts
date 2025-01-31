@@ -1,7 +1,10 @@
 export interface FormInputsTypes {
     name: string;
-    address: string;
-    telephone: string;
+    lastName?: string;
+    subject?: string;
+    address?: string;
+    telephone?: string;
     email: string;
+    message?: string;
   };
   
