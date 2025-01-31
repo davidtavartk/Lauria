@@ -20,7 +20,6 @@ export default function Home() {
       <MapSection />
       <OurPricing />
       <SwiperSection />
-      <ContactSection />
       <Footer />
 
       <ToastContainer
