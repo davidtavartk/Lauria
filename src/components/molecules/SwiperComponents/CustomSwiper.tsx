@@ -48,6 +48,7 @@ const CustomSwiper = () => {
       <Swiper
         ref={swiperRef}
         spaceBetween={50}
+        slidesPerGroup={slidesPerView}
         slidesPerView={slidesPerView}
         modules={[Pagination]}
         pagination={{
