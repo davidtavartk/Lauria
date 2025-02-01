@@ -3,13 +3,17 @@ import Header from "@/components/organisms/Header/Header";
 import CleanCardSection from "@/components/organisms/CleanCardSection/CleanCardSection";
 import ContentSection from "@/components/organisms/ContentSection/ContentSection";
 import MapSection from "@/components/molecules/MapSection/MapSection";
+import OurServiceBox from "@/components/organisms/OurServiceBox";
+import OurBusinessBox from "@/components/organisms/OurBusinessBox";
+import ContactSection from "@/components/organisms/ContactSection.tsx/ContactSection";
+import ChoiceUs from "@/components/organisms/ChoiceUs/ChoiceUs";
 import OurPricing from "@/components/organisms/OurPricing/OurPricing";
 import SwiperSection from "@/components/organisms/SwiperSection/SwiperSection";
 import Footer from "@/components/organisms/Footer/Footer";
 
+
 import { ToastContainer } from "react-toastify";
-import ContactSection from "@/components/organisms/ContactSection.tsx/ContactSection";
-import ChoiceUs from "@/components/organisms/ChoiceUs/ChoiceUs";
+
 
 
 export default function Home() {
@@ -17,6 +21,10 @@ export default function Home() {
     <div className="relative h-full w-full">
       <Header />
       <CleanCardSection />
+      <VideoSection />
+      <WhyUs />
+      <OurBusinessBox/>
+      <OurServiceBox/>
       <ContentSection />
       <MapSection />
       <ChoiceUs />
