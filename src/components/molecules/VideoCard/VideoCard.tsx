@@ -1,5 +1,5 @@
-import React, { useRef, useState } from "react";
-import PlayIcon from "../../../public/svgs/PlayIcon";
+import { useRef, useState } from "react";
+import PlayIcon from "../../../../public/svgs/PlayIcon";
 
 const VideoCard = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -20,9 +20,9 @@ const VideoCard = () => {
   };
 
   return (
-    <div className="relative m-auto w-full">
-      <div className="h-[250px] max-h-[350px] w-4/5 max-w-[500px] bg-[#C4C4C4] sm:h-[390px] sm:w-[500px] md:h-[300px] md:w-4/6 md:min-w-[280px]" />
-      <div className="absolute right-0 top-[150px] h-[250px] w-4/5 border-[15px] border-white bg-[#F3F3F3] shadow-custom max-sm:max-w-[500px] sm:h-[390px] sm:w-[500px] md:h-[300px] md:w-4/6 md:min-w-[280px]">
+    <div className="m-auto size-full">
+      <div className="size-5/6 bg-[#C4C4C4] md:size-3/4 lg-plus:size-[75%] xl:size-3/4" />
+      <div className="absolute right-0 top-[128px] size-5/6 border-[15px] border-white bg-[#F3F3F3] shadow-custom md:size-3/4 lg-plus:size-[75%] xl:size-3/4">
         <video
           ref={videoRef}
           className="h-full w-full object-cover"

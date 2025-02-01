@@ -15,15 +15,15 @@ export default {
         "c-heading": "#FFB830",
         "c-text": "#6E6E6E",
         "c-title": "#2D2D2D",
-        "background-overlay": "rgba(0, 0, 0, 0.65)",
-        
+        "background-overlay": "rgba(0, 0, 0, 0.80)",
       },
       
       boxShadow: {
         custom: '0px 10px 25px 0px rgba(0, 0, 0, 0.10)',
       },
       screens: {
-        'lg-plus': '1220px',
+        "xs": "430px",
+        'lg-plus': '1180px',
       },
     },
   },
