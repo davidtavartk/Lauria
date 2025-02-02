@@ -35,14 +35,13 @@ input:-webkit-autofill:active {
 
 @media (min-width: 768px) {
   .special-style {
-    max-width: 718px;
+    width: 100%;
     grid-column: span 2;
   }
 }
 
 @media (min-width: 768px) {
   .special-style1 {
-    max-width: 100%;
     grid-column: span 1
   }
 }

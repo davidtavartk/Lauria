@@ -19,7 +19,7 @@ const OurPricing = () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua
         </div>
       </div>
-      <div className="grid min-h-[748px] grid-cols-1 items-center justify-center gap-[25px] md:grid-cols-2 xl:h-[826px] xl:grid-cols-3 xl:gap-[25px]">
+      <div className="grid min-h-[748px] grid-cols-1 items-center justify-center gap-[25px] md:grid-cols-2 xl:flex xl:justify-between xl:gap-[25px] w-full">
         <PriceCart
           title="Dry Clean"
           price="$15"
