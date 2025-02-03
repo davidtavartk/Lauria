@@ -9,14 +9,14 @@ import banner from "../../../../public/images/greyBanner.jpg";
 
 const ContactSection = () => {
   return (
-    <div className="flex flex-col relative">
+    <div className="relative flex flex-col">
       <div className="flex flex-col gap-7 px-4 lg:flex-row lg:px-24">
         <div className="flex flex-col gap-8 sm:flex-1">
           <div className="flex flex-col gap-10">
             <span className="text-[13px] uppercase tracking-[1.95px] text-primary">
               Stay Tuned
             </span>
-            <h1 className="text-[35px] md:text-[45px] font-black leading-10 text-c-title">
+            <h1 className="text-[35px] font-black leading-10 text-c-title md:text-[45px]">
               Keep Connected & Lets Get In Touch With Us
             </h1>
             <p className="text-[17px] leading-7 text-c-text">
@@ -38,23 +38,19 @@ const ContactSection = () => {
           </div>
         </div>
 
-        <div className="sm:flex-1 relative">
-          <div className="relative top-[70px] xs:top-[100px]">
-
-          <CustomForm messageForm />
-          </div>
+        <div className="relative sm:flex-1 z-10">
+            <CustomForm messageForm />
         </div>
       </div>
 
-        <div className="w-full">
-          <Image
-            src={banner}
-            alt="contact-banner"
-            style={{ objectFit: "cover" }}
-            width={1600}
-            height={800}
-          />
-        </div>
+      <div className="w-full -mt-[100px]">
+        <Image
+          src={banner}
+          alt="contact-banner"
+          style={{ objectFit: "cover" }}
+          height={800}
+        />
+      </div>
     </div>
   );
 };
