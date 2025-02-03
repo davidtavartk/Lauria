@@ -210,7 +210,7 @@ const CustomForm = ({ messageForm = false }: CustomFormProps) => {
       )}
 
       <div className="mr-auto">
-        <Button>{messageForm ? "Get Reservation" : "Get Reservation"}</Button>
+        <Button>{messageForm ? "Send Message" : "Get Reservation"}</Button>
       </div>
     </form>
   );

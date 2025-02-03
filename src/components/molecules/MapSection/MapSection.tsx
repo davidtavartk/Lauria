@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { mapBackground } from "../../../../public/images";
+import mapBackground from "../../../../public/svgs/mapBackground.svg"
 import MapPinItem from "@/components/atoms/MapPinItem/MapPinItem";
 
 const MapSection = () => {
