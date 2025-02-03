@@ -11,7 +11,7 @@ const OurPricing = () => {
         <div className="text-[13px] uppercase leading-[30px] tracking-[1.9px] text-primary">
           Our Pricing
         </div>
-        <h1 className="text-center text-[35px] font-black capitalize leading-[45px] text-c-title md:text-[45px]">
+        <h1 className="text-center text-[35px] font-black capitalize leading-[40px] text-c-title sm:leading-[60px] md:text-[45px]">
           Best Price For Best Services
         </h1>
         <div className="w-[100%] max-w-[660px] text-center text-c-text">

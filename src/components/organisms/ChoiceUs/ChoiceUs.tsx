@@ -15,7 +15,7 @@ const ChoiceUs = () => {
           <div className="text-[13px] uppercase leading-[30px] tracking-[1.9px] text-primary">
             Why CHoice Us
           </div>
-          <h1 className="text-left text-[35px] font-black capitalize leading-[45px] text-c-title md:text-[45px]">
+          <h1 className="text-left text-[35px] font-black capitalize leading-[40px] text-c-title sm:leading-[60px] md:text-[45px]">
             We Can Be Best Solution For Your Laundry Service
           </h1>
           <div className="w-full max-w-[660px] text-left text-c-text">
