@@ -14,6 +14,12 @@ export interface InputProps {
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
+
+export interface SliderCardProps {
+  label: string;
+  percentage: number;
+}
+
 export interface NavModalProps {
   isOpen: boolean;
   closeModal: () => void;

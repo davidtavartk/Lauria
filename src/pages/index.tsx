@@ -10,6 +10,7 @@ import Footer from "@/components/organisms/Footer/Footer";
 import { ToastContainer } from "react-toastify";
 import ContactSection from "@/components/organisms/ContactSection.tsx/ContactSection";
 import ChoiceUs from "@/components/organisms/ChoiceUs/ChoiceUs";
+import OurTeamSkill from "@/components/organisms/OurTeamSkill/OurTeamSkill";
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <MapSection />
       <ChoiceUs />
       <OurPricing />
+      <OurTeamSkill/>
       <SwiperSection />
       <ContactSection />
       <Footer />
