@@ -1,5 +1,7 @@
 import { useRef, useState } from "react";
 import PlayIcon from "../../../../public/svgs/PlayIcon";
+import Image from "next/image";
+import banner from "../../../../public/images/greyBanner.jpg";
 
 const VideoCard = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -21,7 +23,14 @@ const VideoCard = () => {
 
   return (
     <div className="m-auto size-full">
-      <div className="size-5/6 bg-[#C4C4C4] md:size-3/4 lg-plus:size-[75%] xl:size-3/4" />
+      <div className="size-5/6 md:size-3/4 lg-plus:size-[75%] xl:size-3/4 relative">
+        <Image
+          src={banner}
+          alt="contact-banner"
+          style={{ objectFit: "cover" }}
+          fill
+        />
+      </div>
       <div className="absolute right-0 top-[128px] size-5/6 border-[15px] border-white bg-[#F3F3F3] shadow-custom md:size-3/4 lg-plus:size-[75%] xl:size-3/4">
         <video
           ref={videoRef}

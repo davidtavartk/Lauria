@@ -7,6 +7,7 @@ import Icon6 from "../../../../public/svgs/header_icons/Icon6";
 import Button from "@/components/atoms/Button/Button";
 import Input from "@/components/atoms/Input/Input";
 import { NewsletterFormData } from "@/types/propTypes";
+import { toast } from "react-toastify";
 
 
 const Footer = () => {
@@ -18,6 +19,7 @@ const Footer = () => {
 
   const onSubmit: SubmitHandler<NewsletterFormData> = (data) => {
     console.log(data);
+    toast.success("Subscribed Successfully");
   };
 
   return (
@@ -97,7 +99,7 @@ const Footer = () => {
                 </p>
               )}
             </div>
-            <div className="mr-auto">
+            <div className="mr-auto mt-2">
               <Button>Subscribe Now</Button>
             </div>
           </form>

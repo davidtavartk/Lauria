@@ -14,7 +14,7 @@ import ChoiceUs from "@/components/organisms/ChoiceUs/ChoiceUs";
 export default function Home() {
   return (
     <div className="h-full w-full">
-      <div className="relative max-w-[1980px] xl:w-auto">
+      <div className="relative max-w-[1980px] m-auto">
         <Header />
         <CleanCardSection />
         <ContentSection />
