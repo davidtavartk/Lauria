@@ -26,7 +26,7 @@ const CustomForm = ({ messageForm = false }: CustomFormProps) => {
     <form
       noValidate
       onSubmit={handleSubmit(onSubmit)}
-      className={`flex w-full flex-col items-center justify-between gap-5 bg-primary p-[35px] sm:h-auto sm:flex-row sm:flex-wrap sm:gap-[30px] ${messageForm ? "lg:w-[460px]" : "lg:w-[600px]"} lg-plus:w-[600px] `}
+      className={`flex w-full flex-col items-center justify-between gap-5 bg-primary p-[35px] sm:h-auto sm:flex-row sm:flex-wrap sm:gap-[30px] ${messageForm ? "lg:w-[500px] "  : ""} xl:w-[600px] `}
     >
       {messageForm && (
         <div className="flex flex-col gap-4">
@@ -210,7 +210,7 @@ const CustomForm = ({ messageForm = false }: CustomFormProps) => {
       )}
 
       <div className="mr-auto">
-        <Button>{messageForm ? "Get Reservation" : "Get Reservation"}</Button>
+        <Button>{messageForm ? "Send Message" : "Get Reservation"}</Button>
       </div>
     </form>
   );

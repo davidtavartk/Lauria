@@ -11,26 +11,27 @@ import { ToastContainer } from "react-toastify";
 import ContactSection from "@/components/organisms/ContactSection.tsx/ContactSection";
 import ChoiceUs from "@/components/organisms/ChoiceUs/ChoiceUs";
 
-
 export default function Home() {
   return (
-    <div className="relative h-full w-full">
-      <Header />
-      <CleanCardSection />
-      <ContentSection />
-      <MapSection />
-      <ChoiceUs />
-      <OurPricing />
-      <SwiperSection />
-      <ContactSection />
-      <Footer />
+    <div className="h-full w-full">
+      <div className="relative max-w-[1980px] m-auto">
+        <Header />
+        <CleanCardSection />
+        <ContentSection />
+        <MapSection />
+        <ChoiceUs />
+        <OurPricing />
+        <SwiperSection />
+        <ContactSection />
+        <Footer />
 
-      <ToastContainer
-        position="top-right"
-        autoClose={5000}
-        pauseOnHover={false}
-        theme="dark"
-      />
+        <ToastContainer
+          position="top-right"
+          autoClose={5000}
+          pauseOnHover={false}
+          theme="dark"
+        />
+      </div>
     </div>
   );
 }

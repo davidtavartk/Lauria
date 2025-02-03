@@ -11,7 +11,7 @@ const OurPricing = () => {
         <div className="text-[13px] uppercase leading-[30px] tracking-[1.9px] text-primary">
           Our Pricing
         </div>
-        <h1 className="text-center text-[35px] font-black capitalize leading-[45px] text-c-title md:text-[60px]">
+        <h1 className="text-center text-[35px] font-black capitalize leading-[45px] text-c-title md:text-[45px]">
           Best Price For Best Services
         </h1>
         <div className="w-[100%] max-w-[660px] text-center text-c-text">
@@ -19,7 +19,7 @@ const OurPricing = () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua
         </div>
       </div>
-      <div className="grid min-h-[748px] grid-cols-1 items-center justify-center gap-[25px] md:grid-cols-2 xl:flex xl:justify-between xl:gap-[25px] w-full">
+      <div className="grid min-h-[748px] w-full grid-cols-1 items-center justify-center gap-[25px] md:grid-cols-2 xl:flex xl:justify-between xl:gap-[25px]">
         <PriceCart
           title="Dry Clean"
           price="$15"

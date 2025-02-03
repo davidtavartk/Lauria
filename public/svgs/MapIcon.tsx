@@ -7,13 +7,13 @@ const MapIcon = () => {
     useEffect(() => {
         const handleResize = () => {
           if (window.innerWidth >= 1024) {
-            setSize({ width: 30, height: 30 });
+            setSize({ width: 38, height: 38 });
           } else if (window.innerWidth >= 768) {
-            setSize({ width: 24, height: 24 });
+            setSize({ width: 30, height: 30 });
           } else if (window.innerWidth >= 540) {
-            setSize({ width: 18, height: 18 });
+            setSize({ width: 22, height: 22 });
           } else {
-            setSize({ width: 10, height: 10 });
+            setSize({ width: 12, height: 12 });
           }
         };
     
