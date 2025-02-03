@@ -7,7 +7,7 @@ const SwiperSection = () => {
         <span className="text-[13px] uppercase tracking-[1.95px] text-primary">
           Testimonial
         </span>
-        <h1 className="text-[35px] font-black leading-10 text-c-title">
+        <h1 className="text-[35px] font-black text-c-title leading-[40px] sm:leading-[60px]">
           Best Feedback From Clients
         </h1>
         <p className="text-c-text text-[17px]">

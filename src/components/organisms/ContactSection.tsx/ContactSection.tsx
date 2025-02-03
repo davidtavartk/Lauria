@@ -16,7 +16,7 @@ const ContactSection = () => {
             <span className="text-[13px] uppercase tracking-[1.95px] text-primary">
               Stay Tuned
             </span>
-            <h1 className="text-[35px] font-black leading-10 text-c-title md:text-[45px]">
+            <h1 className="text-[35px] font-black text-c-title md:text-[45px] leading-[40px] sm:leading-[60px]">
               Keep Connected & Lets Get In Touch With Us
             </h1>
             <p className="text-[17px] leading-7 text-c-text">
