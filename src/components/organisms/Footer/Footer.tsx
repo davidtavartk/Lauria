@@ -8,6 +8,7 @@ import Button from "@/components/atoms/Button/Button";
 import Input from "@/components/atoms/Input/Input";
 import { NewsletterFormData } from "@/types/propTypes";
 
+
 const Footer = () => {
   const {
     register,
@@ -21,7 +22,6 @@ const Footer = () => {
 
   return (
     <footer className="w-full">
-      <div className="h-[350px] w-full bg-[#C4C4C4] md:h-[500px] "></div>
       <div className="flex w-[100%] flex-col items-start justify-center gap-[50px] bg-primary px-4 py-[50px] text-white md:px-[25px] lg:px-24 xl:flex-row xl:justify-between xl:gap-[30px] xl:px-[105px] xl:py-[100px]">
         <div className="flex flex-col items-start justify-center gap-[25px] xl:mr-[135px] xl:w-[495px] xl:gap-[30px]">
           <div>
