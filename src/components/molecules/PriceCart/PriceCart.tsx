@@ -6,7 +6,7 @@ import { featureNames } from "@/data";
 const PriceCart = ({ title, price, features, className }: PriceCartProps) => {
   return (
     <div
-      className={`group flex h-[665px] w-full max-w-[345px] cursor-pointer flex-col gap-[25px] border-2 border-primary px-[35px] py-[32px] transition-all duration-700 active:bg-slate-200 xl:w-[390px] xl:hover:h-[723px] xl:hover:bg-primary xl:hover:py-[61px] ${className}`}
+      className={`group flex h-[665px] w-full cursor-pointer flex-col gap-[25px] border-2 border-primary px-[35px] py-[32px] transition-all duration-700 active:bg-slate-200 xl:w-[390px] xl:hover:h-[723px] xl:hover:bg-primary xl:hover:py-[61px] ${className}`}
     >
       <div className="flex flex-col gap-[5px] transition duration-300">
         <div className="text-[35px] font-black leading-[35px] text-c-title transition duration-300 xl:group-hover:text-white">
