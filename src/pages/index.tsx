@@ -10,6 +10,8 @@ import Footer from "@/components/organisms/Footer/Footer";
 import { ToastContainer } from "react-toastify";
 import ContactSection from "@/components/organisms/ContactSection.tsx/ContactSection";
 import ChoiceUs from "@/components/organisms/ChoiceUs/ChoiceUs";
+import BusinessSection from "@/components/organisms/BusinessSection/BusinessSection";
+import ServiceBox from "@/components/organisms/ServiceBox/ServiceBox";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
         <Header />
         <CleanCardSection />
         <ContentSection />
+        <BusinessSection/>
+        <ServiceBox/>
         <MapSection />
         <ChoiceUs />
         <OurPricing />
