@@ -10,13 +10,13 @@ import Footer from "@/components/organisms/Footer/Footer";
 import { ToastContainer } from "react-toastify";
 import ContactSection from "@/components/organisms/ContactSection.tsx/ContactSection";
 import ChoiceUs from "@/components/organisms/ChoiceUs/ChoiceUs";
+import TeamSkillSection from "@/components/organisms/TeamSkillSection/TeamSkillSection";
 import BusinessSection from "@/components/organisms/BusinessSection/BusinessSection";
 import ServiceBox from "@/components/organisms/ServiceBox/ServiceBox";
 
 export default function Home() {
   return (
-    <div className="h-full w-full">
-      <div className="relative max-w-[1980px] m-auto">
+    <div className="h-full w-full relative">
         <Header />
         <CleanCardSection />
         <ContentSection />
@@ -25,6 +25,7 @@ export default function Home() {
         <MapSection />
         <ChoiceUs />
         <OurPricing />
+        <TeamSkillSection />
         <SwiperSection />
         <ContactSection />
         <Footer />
@@ -35,7 +36,6 @@ export default function Home() {
           pauseOnHover={false}
           theme="dark"
         />
-      </div>
     </div>
   );
 }

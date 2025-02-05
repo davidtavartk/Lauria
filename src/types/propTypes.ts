@@ -84,3 +84,7 @@ export interface ContactBoxProps {
   children: React.ReactNode;
 }
 
+export interface SliderCardProps {
+  label: string;
+  percentage: number;
+}
