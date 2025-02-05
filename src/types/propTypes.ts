@@ -39,6 +39,7 @@ export interface PriceCartProps {
   price: string;
   features: boolean[];
   className?: string;
+  isRecommended?: boolean;
 }
 
 export interface MapPinItemProps {
