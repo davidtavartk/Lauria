@@ -11,6 +11,8 @@ import { ToastContainer } from "react-toastify";
 import ContactSection from "@/components/organisms/ContactSection.tsx/ContactSection";
 import ChoiceUs from "@/components/organisms/ChoiceUs/ChoiceUs";
 import TeamSkillSection from "@/components/organisms/TeamSkillSection/TeamSkillSection";
+import BusinessSection from "@/components/organisms/BusinessSection/BusinessSection";
+import ServiceBox from "@/components/organisms/ServiceBox/ServiceBox";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
         <Header />
         <CleanCardSection />
         <ContentSection />
+        <BusinessSection/>
+        <ServiceBox/>
         <MapSection />
         <ChoiceUs />
         <OurPricing />
