@@ -17,19 +17,11 @@ const ServiceBox = () => {
             <div  className="flex-col flex gap-[25px] lg:flex-row ">
                 <div className="flex  flex-col gap-[25px] sm:flex-row ">
                     <ServiceCard icon={<DryClean />} title={'Dry Clean'} text={' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'}/>
-                       
-                   
-
                     <ServiceCard icon={<OneDay/>} title={'One Day Fast'} text={' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'}/>
-                       
-                   
-
-
                 </div>
 
                 <div className="  lg:w-auto">
                     <ServiceCard icon={<LaundryImg/>} title={'All In Laundry'} text={' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.'}>
-                        
                     </ServiceCard>
                 </div>
             </div>
