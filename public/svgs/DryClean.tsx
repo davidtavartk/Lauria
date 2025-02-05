@@ -2,7 +2,7 @@ const DryClean = () => {
     return (
         <div className="group flex items-center justify-center p-4">
             <svg
-                className=" fill-primary group-hover:fill-c-yellow transition"
+                className=" fill-primary group-hover:fill-c-yellow   "
                 width="46"
                 height="46"
                 viewBox="0 0 46 46"
