@@ -17,7 +17,7 @@ import { ToastContainer } from "react-toastify";
 
 export default function Home() {
   return (
-    <div className="h-full w-full relative  max-w-[1980px] m-auto">
+    <div className="h-full w-full relative  max-w-[2340px] m-auto">
         <Header />
         <CleanCardSection />
         <ContentSection />
