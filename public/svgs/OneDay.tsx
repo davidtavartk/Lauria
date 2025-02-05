@@ -1,7 +1,3 @@
-import React from "react";
-
-
-
 const OneDay = () => {
   return (
     <div className="group flex items-center justify-center p-4   ">
