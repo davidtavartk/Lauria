@@ -9,7 +9,7 @@ const PriceCart = ({ title, price, features, className, isRecommended}: PriceCar
       className={`group flex w-full cursor-pointer flex-col gap-[25px] border-2 border-primary px-[35px] py-[32px] transition-all duration-700 active:bg-slate-200 xl:w-[390px] relative xl:hover:bg-primary xl:hover:py-[91px] ${className}`}
     >
         {isRecommended && (
-        <div className="w-[180px] h-[68px] flex justify-center items-center bg-[#FFB830] text-[17px] text-white font-semibold absolute top-0 right-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+        <div className="w-[180px] h-[68px] flex justify-center items-center bg-[#FFB830] text-[17px] text-white font-semibold absolute top-0 right-0 opacity-0 xl:group-hover:opacity-100 transition-opacity duration-700">
               Recommended
             </div>
         )}
