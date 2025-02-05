@@ -4,7 +4,7 @@ const LaundryImg = () => {
     return (
         <div className="group flex items-center justify-center p-4">
             <svg
-                className="w-14 h-12 fill-primary transition-colors duration-300 group-hover:fill-c-yellow"
+                className="w-14 h-12 fill-primary transition-colors  group-hover:fill-c-yellow"
                 width="57"
                 height="46"
                 viewBox="0 0 57 46"
