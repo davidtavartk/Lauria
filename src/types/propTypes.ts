@@ -23,6 +23,20 @@ export interface NavMenuProps {
   className: string;
 }
 
+export interface ServiceCardProps{
+  icon: React.ReactNode;
+  title: string;
+  text: string;
+}
+
+export interface OurBusinessCardProps{
+  text: string;
+  title: string;
+  children: React.ReactNode;
+
+}
+
+
 export interface CleanCardProps {
   icon: React.ReactNode;
   title: string;
