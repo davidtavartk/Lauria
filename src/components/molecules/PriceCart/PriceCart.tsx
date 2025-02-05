@@ -3,13 +3,18 @@ import CheckItem from "@/components/atoms/CheckItem/CheckItem";
 import Button from "@/components//atoms/Button/Button";
 import { featureNames } from "@/data";
 
-const PriceCart = ({ title, price, features, className }: PriceCartProps) => {
+const PriceCart = ({ title, price, features, className, isRecommended}: PriceCartProps) => {
   return (
     <div
-      className={`group flex h-[665px] w-full cursor-pointer flex-col gap-[25px] border-2 border-primary px-[35px] py-[32px] transition-all duration-700 active:bg-slate-200 xl:w-[390px] xl:hover:h-[723px] xl:hover:bg-primary xl:hover:py-[61px] ${className}`}
+      className={`group flex w-full cursor-pointer flex-col gap-[25px] border-2 border-primary px-[35px] py-[32px] transition-all duration-700 active:bg-slate-200 xl:w-[390px] relative xl:hover:bg-primary xl:hover:py-[91px] ${className}`}
     >
+        {isRecommended && (
+            <div className="hidden w-[180px] h-[68px] xl:group-hover:flex justify-center items-center bg-[#FFB830] text-[17px] text-white font-semibold absolute top-0 right-0">
+              Recommended
+            </div>
+        )}
       <div className="flex flex-col gap-[5px] transition duration-300">
-        <div className="text-[35px] font-black leading-[35px] text-c-title transition duration-300 xl:group-hover:text-white">
+        <div className="text-[35px] font-black leading-[35px] text-c-title transition duration-300 xl:group-hover:text-white transation-all">
           {title}
         </div>
         <div className="text-[17px] leading-[30px] text-[#6E6E6E] transition duration-300 xl:group-hover:text-white">

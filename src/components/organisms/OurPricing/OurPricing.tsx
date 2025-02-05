@@ -31,6 +31,7 @@ const OurPricing = () => {
           price="$35"
           features={second_cart}
           className="special-style1"
+          isRecommended={true}
         />
         <PriceCart
           title="All In Laundry"
